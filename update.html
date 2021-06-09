@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Update an animal</title>
+</head>
+<body>
+    <h1 class="allAnimals__h1">Update animal</h1>
+
+    <article class="updateformHolder">
+        <form class="updateForm" action="">
+            <div class="updateForm__item">
+                <label class="updateForm__label" for="name">Name</label>
+                <input class="updateForm__input" type="text" id="name" name="name" placeholder="Update name..."> 
+            </div>
+            <div class="updateForm__item">
+                <label class="updateForm__label" for="type">Type</label>
+                <input class="updateForm__input" type="text" name="type" id="type" placeholder="Update type..."> 
+            </div>
+            <div class="updateForm__item">
+                <label class="updateForm__label" for="breed">Breed</label>
+                <input class="updateForm__input" type="text" name="breed" id="breed" placeholder="Update breed...">   
+            </div>
+           <div class="updateForm__item">
+                <label class="updateForm__label" for="age">Age</label>
+                <input class="updateForm__input" type="number" name="age" id="age" placeholder="Update age..." max="500">
+           </div>
+           <div class="updateForm__item">
+                <label class="updateForm__label" for="sex">Sex</label>
+                <select class="updateForm__input" name="sex" id="sex">
+                    <option value="" disabled selected>Update sex...</option>
+                    <option value="male">Male</option>
+                    <option value="female">female</option>
+                    <option value="gynandromorph">Gynandromorph</option>
+                </select>
+           </div>
+           <div class="updateForm__item">
+                <label class="updateForm__label" for="colors">Colors</label>
+                <input class="updateForm__input" type="text" name="colors" id="colors" placeholder="ex. color1, color2">
+           </div>
+            <input class="updateForm__submitBtn" type="submit" value="Submit">
+        </form>
+    </article>
+
+    <footer class="animal-footer"></footer>
+
+    <script src="script.js"></script>
+    <script src="update.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.allAnimals__h1 {
+    text-transform: uppercase;
+    color: rgb(85, 83, 83);
+    text-align: center;
+    padding: 1em 1em 1.5em;
+}
+
+.animal__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: solid 1px #eee;
+}
+
+.animal-name {
+    flex: 1;
+}
+
+.animal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.animal__h2 {
+    color: rgb(85, 83, 83);
+    padding-right: 1em;
+    align-self: flex-end;
+}
+
+.animal__type {
+    color: rgb(85, 83, 83);
+    font-size: 0.8em;
+    padding-right: 2em;
+    align-self: flex-end;
+}
+
+.details, .update {
+    background-color: #eee;
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em 0.5em;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    width: 65px;
+    border: none;
+    border-radius: 4px;
+}
+
+.deleteBtn {
+    margin: 0.5em;
+    align-self: center;
+    color: rgb(85, 83, 83);
+}
+
+.animal-footer {
+    text-align: center;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #eee;
+    color: rgb(85, 83, 83);
+    font-weight: 700;
+    font-size: 0.8em;
+    border-radius: 4px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.single-animal__h1 {
+    text-transform: uppercase;
+    color: rgb(85, 83, 83);
+    text-align: center;
+    padding: 3em 1em 3em;
+}
+
+.single-animal__table {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+ .single-animal__tr {
+     border-bottom: #fff;
+     width: 300px;
+} 
+
+.single-animal__th {
+    padding: 0.6em;
+    color: rgb(85, 83, 83);
+    background-color: #eee;
+    text-align: left;
+    width: 100px;
+}
+
+.single-animal__td {
+    padding: 0.6em;
+    border: solid 1px #eee;
+    width: 200px;
+}
+
+
+
+.single-animal__back-btn {
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #eee;
+    color: rgb(85, 83, 83);
+    font-weight: 700;
+    font-size: 0.8em;
+    border-radius: 4px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.updateForm {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.updateForm__item {
+    display: flex;
+}
+
+.updateForm__label {
+    background-color: #eee;
+    color: rgb(85, 83, 83);
+    text-align: left;
+    width: 100px;
+    padding: 0.6em;
+}
+
+.updateForm__input {
+    width: 200px;
+    padding: 0.6em;
+    border: solid 1px #eee;
+}
+
+.updateForm__submitBtn {
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    border: none;
+    text-decoration: none;
+    background-color: #eee;
+    color: rgb(85, 83, 83);
+    font-weight: 700;
+    font-size: 0.8em;
+    border-radius: 4px;
+    width: 7em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
