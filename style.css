@@ -180,3 +180,7 @@
     text-transform: uppercase;
 }
 
+.btn_disabled {
+    opacity: 0.5;
+}
+

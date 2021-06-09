@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
     
-
     const animalContainer = document.querySelector(".animalContainer");
     const animalFooter = document.querySelector(".animal-footer");
 
@@ -46,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function(){
                         deleteAnimal(animalID)
                     })
                 })
-    
             });
 
             let prev = document.createElement("a");
@@ -72,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 })
                 .then(response => response.json())
                 .then(data => {
-                    console.log("Hello: " + data)
+                    console.log(data)
                 })
             }
         })
