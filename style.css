@@ -11,7 +11,14 @@
     text-transform: uppercase;
     color: rgb(85, 83, 83);
     text-align: center;
-    padding: 1em 1em 1.5em;
+    padding: 1em 1em 0em;
+}
+
+.allAnimals__h3 {
+    color: rgb(196, 193, 193);
+    text-align: center;
+    padding: 1em 1em 2.5em;
+    font-size: 0.8em;
 }
 
 .animal__item {

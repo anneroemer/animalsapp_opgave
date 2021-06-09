@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
     if (animalContainer){
         fetch(`http://annes-api.herokuapp.com/api/v1/animals?offset=${offset}`, {
-        "method": "GET"
+        "method": "GET",
+
         })
         .then(response => response.json())
             .then (data => {
@@ -65,11 +66,8 @@ document.addEventListener("DOMContentLoaded", function(){
             
                 deleteBtns.forEach(deleteBtn =>{
                     deleteBtn.addEventListener("click", function(){
-                        return fetch(`http://annes-api.herokuapp.com/api/v1/animals/${animalID}`, {
-                        "method": "DELETE",
-                        "headers": {
-                            "Content-Type": "multipart/form-data"
-                        }
+                        fetch(`http://annes-api.herokuapp.com/api/v1/animals/${animalID}`, {
+                        "method": "DELETE"
                         })
                         .then(response => response.json())
                         .then(data => {
